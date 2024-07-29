@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      lang="en">
+<head>
+    <!--/*/ <th:block th:include="fragments/head :: head"></th:block> /*/-->
+    <title>Task Manager</title>
+</head>
+
+<body>
+<header>
+    <!--/*/ <th:block th:include="fragments/header :: header('home')"></th:block> /*/-->
+</header>
+
+<main class="container">
+    <h1 class="display-4">Welcome to Task Manager</h1>
+    <p class="lead">This application will help you manage and organize tasks effectively</p>
+
+    <hr class="my-4">
+    <div class="row">
+        <div class="col-md-5 mb-4">
+            <img src="images/hero.jpg" class="img-fluid rounded" alt="Task Management">
+        </div>
+        <div class="col-md-7">
+            <h2>About Our Application</h2>
+            <p class="lead">Our Task Manager application is designed to streamline efficiently manage tasks, enhance productivity and collaborate with others.</p>
+            <ul style="list-style: none;">
+                <li class="feature-description">
+                    <i class="feature-icon fas fa-calendar-check"></i> <strong>Task Scheduling:</strong> Plan and schedule your tasks efficiently.
+                </li>
+                <li class="feature-description">
+                    <i class="feature-icon fas fa-list-ul"></i> <strong>To-Do Lists:</strong> Create and manage multiple to-do lists with ease.
+                </li>
+                <li class="feature-description">
+                    <i class="feature-icon fas fa-bell"></i> <strong>Reminders:</strong> Set reminders for important deadlines and meetings.
+                </li>
+                <li class="feature-description">
+                    <i class="feature-icon fas fa-sync-alt"></i> <strong>Task Tracking:</strong> Track your progress and stay on top of your tasks.
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <!--/*/ <th:block th:include="fragments/footer :: footer"></th:block> /*/-->
+</footer>
+
+</body>
+</html>
